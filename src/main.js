@@ -1,0 +1,5 @@
+import './img/player-one.png'
+import './img/player-two.png'
+import './scss/all.scss'
+// import './js/fetchAPI.js'
+import './js/scripts.js'

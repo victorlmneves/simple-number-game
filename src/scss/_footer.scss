@@ -1,0 +1,13 @@
+.footer {
+
+  &__title {
+    @include displayFlex(row, center);
+    justify-content: center;
+    font-weight: 400;
+  }
+
+  &__winner {
+    font-weight: 700;
+    margin-left: 10px;
+  }
+}

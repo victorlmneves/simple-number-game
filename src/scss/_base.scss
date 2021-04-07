@@ -1,0 +1,18 @@
+body {
+  color: $primary-color;
+  font-family: $primary-font;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.error {
+  color: $red;
+  display: none;
+}
+
+.active {
+  display: block;
+}

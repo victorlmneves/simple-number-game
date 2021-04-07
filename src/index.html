@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Simple number game</title>
+    <meta name="description" content="Simple number game in JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Simple number game</h1>
+      <div class="header__subtitle">Round nr: <span class="js-round-nr header__number">1</span></div>
+      <p class="js-error error">There was an error. Try again, please.</p>
+    </header>
+    <main class="player">
+      <div class="player__box">
+        <img class="player__avatar" src="player-one.png" alt="Player One" />
+        <p class="player__points">Points: <span class="js-points_player-one">0</span></p>
+        <button class="js-play-one player__button" data-player="one" type="submit">Play</button>
+      </div>
+      <div class="player__box">
+        <img class="player__avatar" src="player-two.png" alt="Player One" />
+        <p class="player__points">Points: <span class="js-points_player-two">0</span></p>
+        <button class="js-play-two player__button" data-player="two" disabled type="submit">Play</button>
+      </div>
+    </main>
+    <footer class="footer">
+      <h3 class="footer__title">The winner of the Round is: <span class="js-winner footer__winner">No winner</span></h3>
+    </footer>
+  </body>
+</html>

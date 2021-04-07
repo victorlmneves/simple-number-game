@@ -1,0 +1,13 @@
+.player {
+  @include displayFlex();
+  justify-content: space-evenly;
+  min-height: 80vh;
+
+  &__box {
+    @include displayFlex(column)
+  }
+
+  &__button {
+    margin: 15px;
+  }
+}
