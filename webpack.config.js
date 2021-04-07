@@ -80,6 +80,12 @@ module.exports = (env, argv) => {
       ]
     },
 
+    devServer: {
+      contentBase: path.join(__dirname, 'docs'),
+      compress: true,
+      port: 9000,
+    },
+
     plugins: [
       new MiniCssExtractPlugin({
         filename: "styles.css"
